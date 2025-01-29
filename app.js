@@ -4,7 +4,7 @@ let listaAmigos = [];
 function adicionarAmigo() {
     let nomeDoAmigo = document.querySelector('input').value;
     if (nomeDoAmigo == '') {
-        alert("Por favor, insira um nome.");
+        alert('Por favor, insira um nome.');
         return false;
     } else {
         limparLista();
@@ -17,14 +17,17 @@ function adicionarAmigo() {
         }
         limparCampo();
     }
-    }
+}
 
 // sortea um dos amigos do array listaAmigos[] se nao estiver vazia
 function sortearAmigo() {
-    let amigoSecreto = listaAmigos[Math.floor(Math.random() * listaAmigos.length)];
-    let amigo = document.querySelector('resultado');
-    resultado.innerHTML = amigoSecreto;
-
+    if (listaAmigos == '') {
+        alert('Por favor, insira um nome.');
+    } else {
+        let amigoSecreto = listaAmigos[Math.floor(Math.random() * listaAmigos.length)];
+        let amigo = document.querySelector('resultado');
+        resultado.innerHTML = amigoSecreto;
+    }
     limparLista();
 }
 
