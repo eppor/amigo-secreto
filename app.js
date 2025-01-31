@@ -26,10 +26,18 @@ function sortearAmigo() {
     } else {
         let amigoSecreto = listaAmigos[Math.floor(Math.random() * listaAmigos.length)];
         let amigo = document.querySelector('resultado');
-        resultado.innerHTML = amigoSecreto;
+        resultado.innerHTML = `Seu amigo escolhido é... ${amigoSecreto}!`;
     }
     limparLista();
 }
+
+// limpa lista e resultados para comecar jogo de novo
+
+function novoJogo() {
+    document.getElementById('reiniciar');
+    listaAmigos = [];
+    resultado.innerHTML = '';
+    }
 
 // limpa campo do input apos adicionar nome do amigo
 function limparCampo() {
