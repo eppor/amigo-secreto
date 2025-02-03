@@ -54,8 +54,8 @@ body {
 
 /* Títulos */
 .main-title {
-    font-size: 48px;
-    font-family: Papyrus, fantasy;
+    font-size: 38px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900;
     font-style: italic;
     color: var(--color-white);
@@ -124,6 +124,7 @@ button {
 
 .button-add:hover {
     background-color: #a1a1a1;
+    color: #FFFFFF;
 }
 
 /* Listas */
@@ -161,4 +162,5 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+    color: orange;
 }
