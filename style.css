@@ -1,14 +1,14 @@
 :root {
-    --color-primary: #4B69FD;
+    --color-primary: hsl(0, 0%, 0%);
     --color-secondary: #FFF9EB;
     --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
-    --color-text: #444444;
+    --color-button: #000000;
+    --color-button-hover: #3c3a39;
+    --color-text: #000000;
     --color-white: #FFFFFF;
 }
 
-/* Estilos gerais */
+/* Estilos gerais */x
 * {
     margin: 0;
     padding: 0;
@@ -55,16 +55,16 @@ body {
 /* Títulos */
 .main-title {
     font-size: 48px;
-    font-family: "Merriweather", serif;
+    font-family: Papyrus, fantasy;
     font-weight: 900;
     font-style: italic;
     color: var(--color-white);
 }
 
 .section-title {
-    font-family: "Inter", serif;
-    font-size: 36px;
-    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 33px;
+    font-weight: 500;
     color: var(--color-primary);
     margin: 10px 0;
     text-align: center;
@@ -88,7 +88,7 @@ body {
 }
 
 .button-container {
-    width: 300px;
+    width: 200px;
     justify-content: center;
 }
 
@@ -113,6 +113,7 @@ button {
     border-radius: 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     cursor: pointer;
+    justify-content: center;
 }
 
 .button-add {
@@ -136,8 +137,9 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
-    font-size: 22px;
+    color: #334686;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 25px;
     font-weight: bold;
     text-align: center;
 }
