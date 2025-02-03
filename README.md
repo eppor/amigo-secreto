@@ -11,11 +11,10 @@ Ao clicar o botao "Sortear amigo" uma funcao retorna nome aleatorio da lista de 
 
 <h3>:hammer: Ferramentas utilizadas:</h3>
 
-VS Code
-
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 <h3>📁 Acesso ao projeto</h3>
 
 Você pode [acessar o código fonte do projeto](https://github.com/eppor/amigo-secreto) ou [baixá-lo](https://github.com/eppor/amigo-secreto/archive/refs/heads/main.zip).
 
+https://eppor.github.io/amigo-secreto/
