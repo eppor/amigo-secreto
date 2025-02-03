@@ -5,9 +5,32 @@
 :construction: Projeto em construção :construction:
 
 <h3>🗒️ Descrição  do projeto:</h3>
-Projeto realizado dentro da formação AluraONE G-8, o primeiro challenge, iniciando a programação com o JavaScript. <br>
-Na pagina principal existe um campo para preencher com nome de um amigo. Apos clicar botao "Adicionar" nome esta adicionado a uma lista. Essa lista esta sendo exibida abaixo e atualizada apos cada nome adicionado.
-Ao clicar o botao "Sortear amigo" uma funcao retorna nome aleatorio da lista de nomes adicionados.
+Aqui está uma descrição profissional para o seu projeto:  
+
+---
+
+# **Sorteador de Nomes - Projeto em HTML, CSS e JavaScript**  
+
+## **Descrição**  
+Este projeto consiste em uma página web interativa para realizar sorteios aleatórios de nomes inseridos pelo usuário. Desenvolvido como parte do aprendizado no curso Alura One, este projeto foi criado utilizando **HTML, CSS e JavaScript**.  
+
+A página permite que o usuário adicione nomes a uma lista e, posteriormente, realize um sorteio para selecionar um nome aleatório.  
+
+## **Funcionalidades**  
+- Campo de entrada para adicionar nomes.  
+- Botão **Adicionar**, que insere os nomes na lista.  
+- Exibição dinâmica dos nomes adicionados.  
+- Botão **Sortear Amigo**, que seleciona um nome aleatoriamente.  
+- Exibição do nome sorteado na tela.  
+
+## **Tecnologias Utilizadas**  
+- **HTML**: Estrutura da página.  
+- **CSS**: Estilização para melhor experiência do usuário.  
+- **JavaScript**: Manipulação do DOM e lógica de sorteio.  
+
+## **Aprendizados**  
+Este projeto proporcionou experiência prática com manipulação do DOM, eventos em JavaScript e estilização com CSS. Além disso, ajudou a consolidar conceitos essenciais do desenvolvimento front-end.  
+
 
 <h3>:hammer: Ferramentas utilizadas:</h3>
 
