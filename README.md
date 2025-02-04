@@ -5,9 +5,6 @@
 :construction: Projeto em construção :construction:
 
 <h3>🗒️ Descrição  do projeto:</h3>
-Aqui está uma descrição profissional para o seu projeto:  
-
----
 
 # **Sorteador de Nomes - Projeto em HTML, CSS e JavaScript**  
 
@@ -18,9 +15,9 @@ A página permite que o usuário adicione nomes a uma lista e, posteriormente, r
 
 ## **Funcionalidades**  
 - Campo de entrada para adicionar nomes.  
-- Botão **Adicionar**, que insere os nomes na lista.  
+- Botão "Adicionar", que insere os nomes na lista.  
 - Exibição dinâmica dos nomes adicionados.  
-- Botão **Sortear Amigo**, que seleciona um nome aleatoriamente.  
+- Botão "Sortear Amigo", que seleciona um nome aleatoriamente.  
 - Exibição do nome sorteado na tela.  
 
 ## **Tecnologias Utilizadas**  
