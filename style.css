@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Montserrat:wght@300&display=swap');
+
 :root {
-    --color-primary: hsl(0, 0%, 0%);
+    --color-primary: rgb(0, 0, 0, 0.6);
     --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
+    --color-tertiary: #22130c;
     --color-button: #000000;
-    --color-button-hover: #3c3a39;
-    --color-text: #000000;
-    --color-white: #FFFFFF;
+    --color-button-hover: #331c11;
+
+    --font-primary: 'Dosis', sans-serif;
+    --font-secondary: 'Montserrat', sans-serif;
 }
 
-/* Estilos gerais */x
+/* Estilos gerais */
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +20,9 @@
 
 body {
     height: 100vh;
-    background-color: var(--color-primary);
+    background-image: url('./assets/coffee-6171744_1920.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,142 +31,109 @@ body {
 .main-content {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 100%;
     width: 100%;
 }
 
 /* Banner */
 .header-banner {
-    flex: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px 0 0;
+    padding: 0 0 30px 0;
+    color: var(--color-secondary);
+    font-family: var(--font-primary);
 }
 
 /* Seção de entrada */
 .input-section {
-    flex: 60%;
-    background-color: var(--color-secondary);
-    border: 1px solid #000;
-    border-radius: 64px 64px 0 0;
+    background-color: var(--color-primary);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
     width: 100%;
+    font-family: var(--font-primary);
 }
 
-/* Títulos */
+/* Títulos e passos*/
 .main-title {
     box-align:center;
-    font-size: 38px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 900;
-    font-style: italic;
-    color: var(--color-white);
+    font-size: 45px;
+    font-family: var(--font-primary);
+    color: var(--color-secondary);
 }
 
-.section-title {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 33px;
+.titulo-secundario {
+    font-family: var(--font-primary);
+    font-size: 30px;
     font-weight: 500;
-    color: var(--color-primary);
+    color: var(--color-secondary);
     margin: 10px 0;
     text-align: center;
 }
 
-/* Contêineres de entrada e botão */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Contêineres de entrada */
 .input-wrapper {
     display: flex;
+    align-items: center;
     justify-content: center;
     width: 100%;
     max-width: 600px;
-    margin-top: 20px;
+    margin: 20px;
 }
 
-.input-name {
+.adicionar {
+    border-radius: 0 25px 25px 0;
+}
+
+.input-friends {
     width: 100%;
-    padding: 10px;
-    border: 2px solid #000;
+    padding: 15px;
     border-radius: 25px 0 0 25px;
-    font-size: 16px;
-}
-
-.button-container {
-    width: 200px;
-    justify-content: center;
-}
-
-/* Estilos de entrada de texto */
-.input-title {
-    flex: 1;
-    padding: 10px 15px;
-    font-size: 16px;
-    border: 2px solid #333;
-    border-right: none;
-    border-radius: 25px 0 0 25px;
-    font-family: "Merriweather", serif;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-family: var(--font-secondary);
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(207, 164, 70, 0.3);
 }
 
 /* Estilos de botão */
 button {
+    width: 200px;
     padding: 15px 30px;
-    font-family: "Inter", sans-serif;
-    font-size: 16px;
-    border: 2px solid #000;
+    font-family: var(--font-secondary);
+    font-size: 20px;
+    background-color: var(--color-button);
     border-radius: 25px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(207, 164, 70, 0.3);
     cursor: pointer;
     justify-content: center;
+    color: var(--color-secondary);
 }
 
-.button-add {
-    background-color: var(--color-tertiary);
-    color: var(--color-text);
-    border-radius: 0 25px 25px 0;
-}
-
-.button-add:hover {
-    background-color: #a1a1a1;
-    color: #FFFFFF;
-}
+button:hover {
+    background-color: var(--color-button-hover);
+}  
 
 /* Listas */
-ul {
-    list-style-type: none;
-    color: var(--color-text);
-    font-family: "Inter", sans-serif;
-    font-size: 18px;
+.friends-list {
+    list-style-type: circle;
+    color: var(--color-secondary);
+    font-family: var(--font-primary);
+    font-size: 28px;
     margin: 20px 0;
 }
 
 .result-list {
     margin-top: 15px;
-    color: #ff9d0b;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    font-size: 25px;
-    font-weight: bold;
+    color: var(--color-secondary);
+    font-family: var(--font-primary); 
+    font-size: 35px;
     text-align: center;
-}
-
-/* Botão de sortear título */
-.button-draw {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding: 10px 40px;
-    color: var(--color-white);
-    background-color: var(--color-button);
-    font-size: 16px;
-}
-
-.button-draw img {
-    margin-right: 40px;
-}
-
-.button-draw:hover {
-    background-color: var(--color-button-hover);
-    color: orange;
 }
