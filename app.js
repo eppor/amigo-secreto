@@ -38,7 +38,7 @@ function sortearAmigo() {
     } else {
         let amigoSecreto = listaAmigos[Math.floor(Math.random() * listaAmigos.length)];
         listaAmigos = listaAmigos.filter(item => item !== amigoSecreto);
-        resultado.innerHTML = `Hoje ${listaAmigos} se juntam para pagar o cafe do... ${amigoSecreto}!`;
+        resultado.innerHTML = `Hoje ${listaAmigos} se juntam para pagar o cafe para... ${amigoSecreto}!`;
         botaoReiniciar.removeAttribute('hidden');
         botaoSortear.setAttribute('hidden', 'hidden');
     }
